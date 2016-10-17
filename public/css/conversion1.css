@@ -1,0 +1,423 @@
+.db-inbox table tbody tr {
+	background:#f4f4f4
+}
+.db-inbox table tbody tr td, .db-inbox table tbody tr a {
+	color:#777
+}
+.db-inbox table tbody tr td.date, .db-inbox table tbody tr td.ellipsis-wrap, .db-inbox table tbody tr td.userpict {
+	cursor:pointer
+}
+.db-inbox table tbody tr td.date a:hover, .db-inbox table tbody tr td.ellipsis-wrap a:hover, .db-inbox table tbody tr td.userpict a:hover {
+	color:#777
+}
+.db-inbox table tbody tr.unread td.date, .db-inbox table tbody tr.unread td.ellipsis-wrap, .db-inbox table tbody tr.unread td.userpict {
+	cursor:pointer
+}
+.db-inbox table tbody tr.unread td.date a:hover, .db-inbox table tbody tr.unread td.ellipsis-wrap a:hover, .db-inbox table tbody tr.unread td.userpict a:hover {
+	color:#0e0e0f
+}
+.db-content-conversation-new .db-tabs-onpage {
+	display:none
+}
+.db-content-conversation-new .db-tabs-wrapper {
+	border-top:0px
+}
+.db-content-conversation-new .conv-write .write-wrap .write-row textarea {
+	border:0;
+	color:#555;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none
+}
+.db-content-conversation-detail {
+	background:none;
+	position:relative;
+	border:0;
+	padding-top:0px;
+	margin-top:0
+}
+.db-conversation-discussion article:first-child {
+	border-top:0px
+}
+.db-conversation-discussion .conversation-action {
+	text-align:right;
+	padding:10px;
+	height:31px
+}
+.db-conversation-discussion .conversation-action .btn-standard {
+	float:right;
+	margin-left:7px
+}
+.db-conversation-discussion .conversation-action .conversation-stats {
+	float:left;
+	display:inline-block;
+	font:700 12px/12px 'Lato', Helvetica, sans-serif;
+	color:#777777;
+	white-space:nowrap;
+	text-transform:uppercase;
+	padding:9px 20px 8px 20px;
+	margin:0
+}
+.db-conversation-user {
+	display:none
+}
+.db-conversation-user .user-stats {
+	background:url("//d2nt7j7ljjsiah.cloudfront.net/assets/v2_backgrounds/bg-order-divi-top-c110c335a93b4e69e26f894d46851d19.png") repeat-x bottom center;
+	margin:0 -1px;
+	padding:0 1px 20px 1px
+}
+.db-conversation-user .user-stats .user-stats-inner {
+	padding:20px 20px 15px 82px
+}
+.db-conversation-user .user-stats .user-pict-50 {
+	margin-left:-62px
+}
+.db-conversation-user .user-stats h5 {
+	font-size:10px;
+	line-height:11px;
+	font-weight:400;
+	text-transform:uppercase;
+	color:#777;
+	padding-bottom:10px
+}
+.db-conversation-user .user-stats h5 .flag {
+	float:left;
+	margin:0 7px 0 0
+}
+.db-conversation-user .user-stats p {
+	font-size:14px;
+	line-height:18px
+}
+.db-conversation-user .user-stats .stats-numbers {
+	border-left:1px #ddd solid;
+	float:right;
+	width:255px;
+	padding:0 0 0 20px;
+	margin:0 0 0 20px
+}
+.db-conversation-user .user-stats .stats-numbers h4 {
+	background-color:#ededed;
+	height:22px;
+	font-size:12px;
+	line-height:22px;
+	font-weight:700;
+	color:#777;
+	text-transform:uppercase;
+	padding:0 10px
+}
+.db-conversation-user .user-stats .stats-numbers h4 .rating {
+	float:right;
+	margin-top:4px
+}
+.db-conversation-user .user-stats .stats-numbers ul {
+	margin:10px 0 20px 0
+}
+.db-conversation-user .user-stats .stats-numbers ul:last-child {
+	margin-bottom:0px
+}
+.db-conversation-user .user-stats .stats-numbers ul li {
+	float:left;
+	color:#999;
+	font-size:22px;
+	line-height:22px;
+	vertical-align:top;
+	padding:0 0 0 10px;
+	width:75px;
+	overflow:hidden
+}
+.db-conversation-user .user-stats .stats-numbers ul li small {
+	display:block;
+	font-size:10px;
+	line-height:120%;
+	font-weight:700;
+	color:#777;
+	text-transform:uppercase;
+	padding-top:3px
+}
+.db-conversation-user .user-transactions {
+	padding-top:20px;
+	background:#fafafa url("//d2nt7j7ljjsiah.cloudfront.net/assets/v2_backgrounds/bg-dashboard-body-11f59009e823377d0280d63a706ce4c5.png") repeat top left;
+	margin:0 -1px -1px -1px
+}
+.db-conversation-user .user-transactions .conv-historical {
+	font-size:12px;
+	line-height:18px;
+	text-transform:uppercase;
+	color:#777;
+	text-decoration:none;
+	position:relative;
+	padding-left:23px
+}
+.db-conversation-user .user-transactions .conv-historical:before {
+	content:"";
+	background:transparent url("//d2nt7j7ljjsiah.cloudfront.net/assets/v2_globals/icn-master-small-abec42d3ff425422475274eceb593e2f.png") no-repeat 0 0;
+	position:absolute;
+	z-index:1;
+	display:block;
+	overflow:hidden;
+	background-position:-50px -50px;
+	width:18px;
+	height:18px;
+	top:-4px;
+	left:1px
+}
+.conv-status-lrg {
+	text-align:center;
+	padding:25px 20px 30px 20px;
+	border-top:1px #ddd solid;
+	position:relative
+}
+.conv-status-lrg h4 {
+	font-size:12px;
+	color:#00668c;
+	text-transform:uppercase;
+	padding-bottom:3px;
+	position:relative
+}
+.conv-status-lrg h4.alert {
+	padding-top:36px;
+	color:#ff4d4d
+}
+.conv-status-lrg h4.alert:before {
+	background-position:-300px 0;
+	width:33px;
+	height:26px;
+	margin-left:-17px
+}
+.conv-status-lrg h4:before {
+	content:"";
+	background:transparent url("//d2nt7j7ljjsiah.cloudfront.net/assets/v2_globals/icn-master-small-abec42d3ff425422475274eceb593e2f.png") no-repeat 0 0;
+	position:absolute;
+	z-index:1;
+	display:block;
+	overflow:hidden;
+	top:0;
+	left:50%
+}
+.conv-status-lrg p {
+	font-size:14px;
+	line-height:18px
+}
+.conv-status-lrg form {
+	display:inline
+}
+.conv-status-lrg form input[type="submit"] {
+	border:none;
+	background:none;
+	vertical-align:baseline;
+	font-size:13px;
+	color:#00b22d
+}
+.conv-status-lrg form input[type="submit"]:hover {
+	text-decoration:underline
+}
+.conversation-gig-list {
+	padding:20px 20px 0 20px;
+	border-top:1px #ddd solid;
+	position:relative
+}
+.conversation-gig-list header {
+	text-align:center
+}
+.conversation-gig-list header .user-pict-24 {
+	display:inline-block;
+	float:none;
+	margin:0 0 10px 0
+}
+.conversation-gig-list header h4 {
+	font-size:12px;
+	color:#00668c;
+	text-transform:uppercase;
+	padding-bottom:3px;
+	position:relative
+}
+.conversation-gig-list>p {
+	font-size:14px;
+	line-height:18px;
+	text-align:center
+}
+.conversation-gig-list .conversation-gigs {
+	padding-top:20px
+}
+.conversation-gig-list .conversation-gigs .offer-gig {
+	float:left;
+	display:block;
+	margin:0 20px 20px 0
+}
+.conversation-gig-list .conversation-gigs .offer-gig:nth-child(4n+0) {
+margin-right:0px
+}
+@media (max-width: 1027px) {
+.db-inbox table tbody tr td {
+padding-top:8px;
+padding-bottom:8px
+}
+.db-inbox table tbody tr td.userpict {
+padding-top:4px;
+padding-bottom:4px
+}
+.db-inbox table tbody tr td.status-star {
+padding-top:0px;
+padding-bottom:0px
+}
+}
+.conv-message {
+    border-top: 1px solid #DDDDDD;
+    min-height: 50px;
+    padding: 20px 20px 20px 82px;
+    position: relative;
+}
+.conv-message .user-pict-50 {
+    margin-left: -62px;
+}
+.conv-message h4 {
+    color: #777777;
+    font-weight: 700;
+    margin-top: -2px;
+    padding-bottom: 3px;
+}
+.conv-message h4, .conv-message p, .conv-message .msg-body {
+    font-size: 14px;
+    line-height: 18px;
+    word-wrap: break-word;
+}
+.conv-message h4, .conv-message p, .conv-message .msg-body {
+    font-size: 14px;
+    line-height: 18px;
+    word-wrap: break-word;
+}
+.conv-message h4, .conv-message p, .conv-message .msg-body {
+    font-size: 14px;
+    line-height: 18px;
+    word-wrap: break-word; margin:0px;
+}
+.conv-message .msg-footer {
+    bottom: 5px;
+    color: #B2B2B2;
+    font-size: 10px;
+    opacity: 0;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    transition: opacity 0.2s ease 0s;
+    z-index: 1;
+}
+.conv-message.mine {
+    background-color: #F4F4F4;
+}
+.msg-form-fixed {
+    -moz-box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.2s ease 0s;
+    width: 100%;
+}
+.conv-write:before, .conv-write:after {
+    content: " ";
+    display: table;
+}
+.conv-write:after {
+    clear: both;
+}
+.conv-write:before, .conv-write:after {
+    content: " ";
+    display: table;
+}
+
+.conv-write {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #EDEDED;
+    border-color: #DDDDDD -moz-use-text-color;
+    border-image: none;
+    border-style: solid none;
+    border-width: 1px 0;
+    padding: 17px 20px 20px;
+    position: relative;
+}
+
+.msg-form-fixed .conv-write {
+    -moz-box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 5px 5px;
+    margin: 0 -1px -1px;
+    padding: 17px 20px 20px;
+	 background-color: #EDEDED;
+}
+.conv-write header label {
+    color: #777777;
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.conv-write .write-wrap {
+    background: url("//d2nt7j7ljjsiah.cloudfront.net/assets/v2_backgrounds/bg-order-conv-write-0a093a5761158828845a4a858e38460a.png") repeat-x scroll left bottom #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 2px #E3E3E3 inset;
+    overflow: hidden;
+}
+.conv-write .write-wrap .write-row {
+    padding: 8px;
+    position: relative;
+}
+.conv-write .write-wrap .write-row .uploadifyQueue {
+    display: block;
+}
+.uploadifyQueue {
+    border-left: 1px solid #DDDDDD;
+    float: right;
+    padding-left: 10px;
+    width: 294px;
+}
+.conv-write .write-wrap .write-row textarea {
+    background-color: #FFFFFF;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    display: block;
+    height: 150px;
+    padding: 0;
+    transition: height 0.2s ease-in-out 0s;
+    width: 100%; font-size:14px;
+}
+.conv-write .write-wrap .write-controls {
+    height: 31px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.btn-standard.btn-green {
+    background-color: #00B22D;
+    border: 1px solid #028A25;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.conv-write .write-wrap .btn-send-message {
+    background: url("//d2nt7j7ljjsiah.cloudfront.net/assets/v2_globals/icn-master-small-abec42d3ff425422475274eceb593e2f.png") no-repeat scroll -590px -91px #00B22D;
+    padding-left: 40px;
+    padding-right: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+.conv-write .write-wrap .write-controls .char-count {
+    color: #999999;
+    font-size: 10px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+.conv-write .write-wrap .write-controls .char-count em {
+    font-style: normal;
+    font-weight: 700;
+}
+.conv-write .write-wrap.inside {
+    border-color: #00B22D;
+}

@@ -1,0 +1,1089 @@
+.f-l {
+	float:left!important
+}
+.mb10 {
+margin-bottom: 10px!important;
+}
+.f-r { float:right!important;}
+.a-r,.f-r {
+text-align: right!important;
+}
+.clearfix:after {
+content: ".";
+display: block;
+clear: both;
+height: 0;
+visibility: hidden;
+}
+#content {
+	position:relative
+}
+.content-inner {
+	width:940px;
+	margin:0 auto
+}
+
+#activity #content {
+	margin-top:-120px;
+	z-index:10
+}
+#booking_cnt .trip-title {
+position: relative;
+bottom: 0px;
+width:598px;
+
+margin-top: 0px;
+padding-left: 20px;
+background-color:rgba(114, 11, 75, 0.6); float:left;
+border-radius:5px 5px 0px 0px;
+	
+	padding:11px;
+	box-shadow:0 2px 0 -1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom:0px;
+}
+#booking_cnt .trip-title h1 {
+color: #fff;
+font-family: "Frutiger Neue W01 Md","Frutiger","Helvetica Neue","Helvetica","Arial","sans-serif";
+text-shadow: 0 1px 3px rgba(0,0,0,0.4),0 0 30px rgba(0,0,0,0.075);
+font-size: 27px;
+width: 100%;
+margin-bottom: 4px;
+}
+#booking_cnt .trip-header-props {
+color: #fff;
+font-size: 14px;
+text-shadow: 0 1px 3px rgba(0,0,0,0.4),0 0 30px rgba(0,0,0,0.075);
+}
+#booking_cnt .trip-header-prop {
+float: left;
+color: #fff;
+padding-right: 20px;
+padding-bottom: 10px;
+}
+#booking_cnt  .trip-header-props i {
+margin-top: 2px;
+}
+[class^="icon-"], [class*=" icon-"] {
+display:inline-block;
+width:14px;
+height:14px;
+line-height:14px;
+vertical-align:text-top;
+background-image:url("/images/glyphicons-halflings.png");
+background-position:14px 14px;
+background-repeat:no-repeat;
+*margin-right:.3em
+}
+[class^="icon-"]:last-child, [class*=" icon-"]:last-child {
+*margin-left:0
+}
+.icon-white {
+background-image: url("../img/glyphicons-halflings-white.png");
+}
+.icon-map-marker {
+background-position: -24px -72px;
+}
+.icon-time {
+background-position: -48px -24px;
+}
+.icon-user {
+background-position: -168px 0;
+}
+.icon-heart {
+background-position: -96px 0;
+}
+#activity #activity-content h1 {
+	font-size:215.4%;
+	font-weight:bold;
+	margin-bottom:10px
+}
+#activity #activity-content h2 {
+	color:#f9421f;
+	font-size:184.6%;
+	margin-bottom:20px
+}
+#activity #activity-menu h2 {
+	font-size:153.8%;
+	margin-bottom:10px
+}
+#activity #main_content hr.dot-gray {
+	margin:30px 0
+}
+#activity #activity-content {
+	float:left;
+	width:620px;
+	margin-bottom:35px
+}
+#activity #reviews {
+	float:left;
+	width:620px
+}
+#activity #activity-menu {
+	float:right;
+	width:300px
+}
+#activity #visual-area-bg {
+	width:100%;
+	text-align:center;
+	background-color:#000;
+	box-shadow:0 3px 0 rgba(0, 0, 0, 0.25);
+	behavior:url("/PIE.htc")
+}
+#activity #visual-area-bg:after {
+	/*content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:430px;
+	background:url(../images/common/pettern-over.png) repeat 0 0 rgba(0, 0, 0, 0.2)*/
+}
+#activity #visual-area-bg {
+	display:block;
+	height:430px
+}
+#activity #visual-area-bg .bg-visual {
+	position:relative;
+	display:block;
+	float:none!important;
+	margin:0 auto;
+	background:#000;
+transition:.4s
+}
+#activity .bg-visual:before {
+	
+}
+#activity .bg-visual:after {
+	
+}
+#activity #main_content {
+	border:solid 1px #cecece;
+	border-radius:0px 0px 5px 5px;
+	background-color:rgba(255, 255, 255, 0.9);
+	box-shadow:0 1px 2px rgba(0, 0, 0, 0.06), 0 0 0 4px rgba(239, 239, 236, 0.9) inset;
+	padding:19px;
+	-pie-background:#FFF;
+	position:relative;
+	behavior:url("/PIE.htc")
+}
+#activity #activity_header {
+	margin-bottom:20px
+}
+#activity #topic-path {
+	margin-bottom:20px;
+	line-height:1.8
+}
+#activity #topic-path ul {
+	display:inline
+}
+#activity #topic-path li {
+	display:inline
+}
+#activity #topic-path li a {
+	text-decoration:underline
+}
+#activity #topic-path li a:hover {
+	text-decoration:none
+}
+#activity #topic-path>ul>li:after {
+	content:">";
+	display:inline;
+	margin:0 1px 0 2px
+}
+#activity #topic-path>ul>li:nth-last-child(1):after {
+content:"";
+margin:0
+}
+#activity #topic-path ul ul li:after {
+	content:",";
+	display:inline
+}
+#activity #topic-path ul ul li:nth-last-child(1):after {
+content:"";
+margin:0
+}
+#activity #activity_information {
+	width:460px
+}
+#activity .social_btn {
+	margin-top:4px
+}
+#activity .social_btn_google {
+	display:block;
+	min-width:20px;
+	min-height:20px;
+	font-size:0
+}
+#activity .social_btn_twitter {
+	display:block;
+	margin-left:-20px;
+	font-size:0
+}
+#activity .social_btn_facebook {
+	display:block;
+	margin-left:-20px
+}
+#activity .social_btn_facebook-send {
+	display:block;
+	margin-left:15px
+}
+#activity #verified-mark {
+	position:relative;
+	display:block;
+	width:99px;
+	height:100px;
+	background:url(../images/common/mark-verified.png);
+	margin-top:-5px
+}
+#activity #verified-mark .shine-effect {
+	position:absolute;
+	left:0;
+	top:0;
+	width:80px;
+	height:80px;
+	background-image:url("../images/common/shine.png");
+	background-position:-265px 0;
+	background-repeat:no-repeat;
+	margin:10px;
+	opacity:0.8;
+	border-radius:50px
+}
+#activity #verified-mark:hover .shine-effect {
+	background-position:0 0;
+	transition:all 1.2s ease 0s;
+	opacity:1
+}
+#activity #verified-mark .tooltips {
+	display:none;
+	position:absolute;
+	bottom:100px;
+	right:-30px;
+	min-width:230px;
+	border:3px solid #1ca2ef;
+	border-radius:5px;
+	background-color:#FFF;
+	padding:15px;
+	box-shadow:0 0 6px rgba(0, 0, 0, 0.45);
+	margin-top:-50px;
+	z-index:10;
+	behavior:url("/PIE.htc")
+}
+#activity #verified-mark:hover .tooltips {
+	display:block
+}
+#activity #verified-mark .tooltips:after {
+	content:"";
+	position:absolute;
+	bottom:-13px;
+	right:67px;
+	display:block;
+	width:0;
+	height:0;
+	border:5px solid transparent;
+	border-top-color:#1ca2ef
+}
+#activity #verified-mark .tooltips a {
+	text-decoration:underline
+}
+#activity #add-wishlist {
+	float:right;
+	min-height:23px;
+	font-size:92.3%;
+	border:solid 1px #e2e2e2;
+	border-radius:3px;
+	background:url(../images/common/icon-wish.png) no-repeat 8px 2px #f3f3f3;
+	box-shadow:0px 1px 0px #aaa;
+	padding:0 8px 0 30px;
+	line-height:190%;
+	cursor:pointer
+}
+#activity #add-wishlist:hover {
+	background-position:8px -17px;
+	background-color:#fff
+}
+#activity #activity_wrap .active-button {
+	background-position:8px -17px;
+	background-color:#FFF
+}
+#activity #act-submenu {
+	background-color:rgba(0, 0, 0, 0.12);
+	margin-bottom:0px;
+	padding:10px 10px 0;
+	border-radius:3px 3px 0 0;
+	overflow:hidden;
+	position:relative;
+	-pie-background:rgba(0, 0, 0, 0.08);
+	behavior:url("/PIE.htc")
+}
+#activity #act-submenu ul.tabs {
+	background:none;
+	border-radius:0;
+	margin:0;
+	padding:0
+}
+#activity #act-submenu ul.tabs li {
+	width:140px;
+	color:#AAA;
+	font-size:115.4%;
+	font-weight:600;
+	padding:10px 0;
+	background-color:rgba(255, 255, 255, 0.55);
+	cursor:pointer;
+	position:relative;
+	-pie-background:rgba(255, 255, 255, 0.55);
+	behavior:url("/PIE.htc")
+}
+#activity #act-submenu ul.tabs li.current, #activity #act-submenu ul.tabs li:hover {
+	color:#666;
+	background-color:#FFF;
+	position:relative;
+	-pie-background:#FFF
+}
+#activity #act-submenu #review-count {
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:45px;
+	line-height:1.1
+}
+#activity #act-submenu #review-count a {
+	color:#0d8ed8
+}
+#activity #act-submenu #review-count a:hover {
+	text-decoration:underline
+}
+#activity #act-submenu #review-count .counter {
+	display:inline-block;
+	width:31px;
+	height:23px;
+	font-size:123.1%;
+	font-weight:600;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.15);
+	text-align:center;
+	background:url(../images/common/tooitip-reveiws.png) no-repeat 0 0
+}
+#activity #gallery {
+	margin-bottom:40px
+}
+#activity #gallery .loader {
+	background:url(/assets/common/ajax-loader.gif) no-repeat center 15%
+}
+#activity #gallery .strip_wrapper {
+	margin-top:15px
+}
+#activity #gallery .pointer {
+	margin-top:10px
+}
+#activity #gallery .nav-prev {
+	top:auto !important;
+	bottom:30px !important
+}
+#activity #gallery .nav-next {
+	top:auto !important;
+	bottom:30px !important
+}
+#activity #gallery .img_wrap img {
+	height:65px!important;
+	max-width:100px!important
+}
+#activity #map_canvas {
+	margin-bottom:40px
+}
+#activity .not-active {
+	color:#F9421F;
+	font-size:24px;
+	font-weight:600;
+	text-shadow:0 2px 0 #FFFFFF;
+	background:url("/assets/common/pettern-over.png") repeat scroll 0 0 #f9f9f6;
+	padding:10px;
+	margin-bottom:25px;
+	text-align:center
+}
+#activity #check-point dt {
+	color:#0D8ED8;
+	font-weight:600;
+	font-size:107.7%
+}
+#activity #check-point dd {
+	margin-bottom:10px
+}
+#activity .btn#book-it-btn_l {
+	width:auto
+}
+#activity .btn#book-it-btn_m {
+	width:240px;
+	font-size:104.6%;
+	box-shadow:0 0 0 5px rgba(12, 10, 8, 0.2);
+	padding:5px;
+	margin:0 auto
+}
+#activity .btn#book-it-btn_m:hover {
+	box-shadow:0 0 0 5px rgba(12, 10, 8, 0.3)
+}
+#activity .btn#book-it-btn_m:active {
+	box-shadow:0 0 0 5px rgba(12, 10, 8, 0.3), 0 2px 3px rgba(12, 10, 8, 0.35) inset;
+	border:none
+}
+#activity #bookit-area {
+	color:#000;
+	border-radius:5px;
+	background-color:#FFFFFF;
+	padding:15px;
+	box-shadow:0 2px 0 -1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom:20px;
+	-pie-background:#3E3E3E;
+	behavior:url("/PIE.htc")
+}
+#activity #bookit-area .bookit-label {
+	float:left;
+	font-size:138.4%;
+	line-height:1.1;
+	margin-top:5px;
+	letter-spacing:.03em
+}
+#activity #bookit-area .bookit-label .subtxt {
+	font-size:66.6%;
+	letter-spacing:0
+}
+#activity #bookit-area dl {
+	padding:0 5px
+}
+#activity #bookit-area dd {
+	line-height:1
+}
+#activity #bookit-area #bookit-price {
+	font-size:40px;
+	vertical-align:baseline
+}
+#activity #bookit-area #bookit-curr {
+	position:relative;
+	display:inline-block;
+	font-size:161.5%;
+	vertical-align:baseline;
+	margin-left:5px
+}
+#activity #bookit-area #option-counter {
+	width:260px
+}
+#activity #bookit-area #price_include #activity-item-description {
+	line-height:1.6
+}
+#activity #bookit-area #activity-item-duration #duration-number {
+	font-size:30px;
+	letter-spacing:.1em;
+	vertical-align:baseline
+}
+#activity #bookit-area #activity-item-duration #duration-unit {
+	font-size:123.1%;
+	vertical-align:baseline
+}
+#activity #bookit-area hr {
+	margin:20px 0 25px
+}
+#activity #price_include ul {
+	padding-left:15px
+}
+#activity #price_include ul li {
+	list-style:disc;
+	margin-bottom:5px
+}
+#activity #bookit-area #contact-host-area p {
+	background:url(../images/common/icon-contact.png) no-repeat 0 0.3em;
+	padding-left:25px
+}
+#activity #bookit-area #contact-host-area .btn {
+	
+}
+#activity #activity-info {
+	border-radius:5px;
+	background-color:rgba(255, 255, 255, 0.9);
+	box-shadow:0 2px 0 -1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+	padding:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	-pie-background:#FFF;font-size:12px;	
+	behavior:url("/PIE.htc")
+}
+#activity #conditions dd{
+	margin:0px;  color: #333333;
+	
+}
+#details p {
+	font-size:12px;
+}
+#activity #conditions dl dt {
+	border-top:dotted 1px #bfbfbf;
+	padding-top:15px;
+	margin-top:15px
+}
+#activity #about-host {
+	position:relative
+}
+#activity #about-host .host-name {
+	position:relative;
+	margin-bottom:10px
+}
+#activity #about-host .host-pict {
+	position:relative;
+	float:left;
+	width:120px;
+	height:120px;
+	margin-right:10px
+}
+#activity #about-host .host-pict img {
+	border-radius:3px
+}
+#activity #about-host .host-pict:after {
+	content:"";
+	position:absolute;
+	top:0;
+	display:block;
+	width:120px;
+	height:120px;
+	border-radius:3px;
+	box-shadow:0 1px 5px rgba(0, 0, 0, 0.25) inset;
+	behavior:url("/PIE.htc")
+}
+#activity #about-host h3 {
+	float:left;
+	width:115px; font-size:1em; font-weight:normal;
+	margin-bottom:5px
+}
+#activity #about-host .btn {
+	float:left;
+	width:118px;
+	padding:5px
+}
+#activity #about-host ul#speaks {
+	margin-bottom:15px;
+	width:130px; padding:0px; 
+}
+#activity #about-host ul#speaks li {
+	background:url(../images/common/icon-speaks.gif) no-repeat 0 3px;
+	padding-left:20px; list-style-type:none;
+}
+#activity #about-host #host-profile p {
+	position:relative;font-size: 12px;
+	max-height:180px;
+	overflow:hidden;
+	transition:1s all
+}
+#activity #about-host #host-profile p:after {
+	content:"";
+	position:absolute;
+	bottom:0;
+	display:block;
+	height:50px;
+	width:260px;
+	background-image:linear-gradient(rgba(255, 255, 255, 0), #fff)
+}
+#activity #about-host #host-profile .read-more {
+	float:none;
+	width:90px;
+	font-size:84.3%;
+	padding:3px;
+	margin:10px auto 10px
+}
+#activity-item-description {
+ margin:0px; 
+}
+#activity #about-host #host-profile.open p {
+	max-height:1000px
+}
+#activity #about-host #host-profile.open p:after {
+	display:none
+}
+#activity #about-host #host-profile.open .read-more {
+	display:none
+}
+#other-activities {
+	margin-top:20px;
+	border-top:dotted 1px #bfbfbf;
+	padding-top:20px
+}
+#other-activities ul {
+	margin-top:20px;
+	padding:0 15px
+}
+#other-activities ul li {
+	margin-bottom:20px
+}
+#other-activities ul li a {
+	display:block;
+	border-radius:3px;
+	margin-bottom:3px;
+	overflow:hidden;
+	background-color:#FFF;
+	border:solid 5px #FFF;
+	box-shadow:0 0 3px #BBB;
+transition:.2s
+}
+#other-activities ul li a:hover {
+	text-decoration:underline;
+	background-color:#1ca2ef;
+	border:solid 5px #1ca2ef
+}
+#other-activities ul li img {
+	border-radius:3px 3px 0 0
+}
+#other-activities ul li .title {
+	padding:5px;
+	background-color:#ecece8;
+	border-radius:0 0 3px 3px;
+transition:.3s
+}
+#other-activities ul li a:hover .title {
+	background-color:#FFF
+}
+#other-activities ul li .act-detail {
+	display:inline-block;
+	font-size:115.4%;
+	font-weight:600;
+	padding:0 5px
+}
+#other-activities ul li .act-detail span {
+	vertical-align:middle
+}
+#other-activities ul li .duration {
+	margin-right:10px
+}
+#activity #bnr-reviews {
+	border-radius:6px;
+	box-shadow:0 1px 0 1px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.2);
+	behavior:url("/PIE.htc")
+}
+#activity #reviews {
+	margin-bottom:30px
+}
+#activity #reviews h2 {
+	font-size:161.5%;
+	margin-bottom:15px;
+	overflow:hidden
+}
+#activity #reviews ul {
+margin:0px; padding:0px;
+}
+#activity #reviews h2 span {
+	background-color:#f9f9f6;
+	padding-right:15px
+}
+#activity #reviews h2 span:after {
+	content:"";
+	display:block;
+	float:left;
+	width:100%;
+	border-bottom:dotted 1px #bbbbb8;
+	margin-top:-13px
+}
+#activity #reviews li {
+	margin-bottom:20px; list-style-type:none;	
+}
+#activity #reviews .guest-pict {
+	position:relative;
+	float:left;
+	width:73px
+}
+#activity #reviews .guest-pict img {
+	border-radius:3px;
+	margin-bottom:5px
+}
+#activity #activity #reviews .guest-pict:after {
+	content:"";
+	position:absolute;
+	top:0;
+	display:block;
+	width:73px;
+	height:73px;
+	border-radius:3px;
+	box-shadow:0 1px 5px rgba(0, 0, 0, 0.75) inset;
+	behavior:url("/PIE.htc")
+}
+#activity #reviews .comment {
+	position:relative; font-size:12px;
+	float:right;
+	width:480px;
+	padding:20px;
+	border-radius:5px;
+	background-color:#fff;
+	box-shadow:0 2px 0 -1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+	behavior:url("/PIE.htc")
+}
+#activity #reviews .comment:after {
+	content:"";
+	position:absolute;
+	top:20px;
+	left:-7px;
+	width:0;
+	height:0;
+	border-top:solid 18px #fff;
+	border-right:solid 18px #fff;
+	box-shadow:-1px 2px 1px -1px rgba(0, 0, 0, 0.15);
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	display:none\9
+}
+#activity .host-name {
+	background:url(../images/common/icon-account.png) no-repeat 0 1px;
+	padding-left:15px
+}
+#activity .on-tripadvisor {
+	color:#999;
+	font-style:oblique
+}
+.host-pict_120 {
+	position:relative;
+	width:120px;
+	height:120px;
+	margin-right:10px
+}
+.host-pict_120 img {
+	border-radius:3px
+}
+.host-pict_120:after {
+	content:"";
+	position:absolute;
+	top:0;
+	display:block;
+	width:120px;
+	height:120px;
+	border-radius:3px;
+	box-shadow:0 1px 5px rgba(0, 0, 0, 0.25) inset
+}
+#content ul.tabs {
+	border-radius:3px;
+	background-color:#efefef;
+	padding:10px 10px 0;
+	overflow:hidden;
+	margin-bottom:30px;
+	position:relative;
+	behavior:url("/PIE.htc")
+}
+#content ul.tabs li {
+	float:left;
+	border-radius:3px 3px 0 0;
+	background-color:#f7f7f7;
+	margin-right:10px;
+	text-align:center;
+	line-height:1;
+	position:relative;list-style-type:none;
+	behavior:url("/PIE.htc")
+}
+#content ul.tabs li.fin {
+	margin-right:0
+}
+#content ul.tabs li.current, #content ul.tabs li:hover {
+	background-color:#fff
+}
+#content ul.tabs li h2 {
+	font-size:138.4%;
+	color:#0d8ed8;
+	margin:0
+}
+#content ul.tabs li h2 a {
+	display:block;
+	width:100%;
+	padding:15px 0
+}
+#content ul.tabs li.current h2 a {
+	color:#F9421F
+}
+
+/* gallery */
+
+.gv_filmstripWrap { overflow: hidden; position: relative; }
+
+
+/* FILMSTRIP */
+.gv_filmstrip { margin: 0; padding: 0; position: relative; top: 0; left: 0; }
+
+/* FILMSTRIP FRAMES (contains both images and captions) */
+.gv_frame { 
+	cursor: pointer;
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+/* WRAPPER FOR FILMSTRIP IMAGES */
+.gv_frame .gv_thumbnail { position: relative;overflow: hidden !important; }
+
+/* WRAPPER FOR CURRENT FILMSTRIP IMAGE */
+.gv_frame.current .gv_thumbnail {}
+
+/* FRAME IMAGES */
+.gv_frame img { border: none; position: absolute; }
+.btn {
+	display:block;
+	border-radius:3px;
+	text-align:center;
+	position:relative;
+	behavior:url("/PIE.htc")
+}
+.btn.basic {
+	color:#494949;
+	background-color:#fafafa;
+	background-image:linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));
+	border:solid 1px #DADADA;
+	padding:7px
+}
+.btn.basic:hover {
+	background-image:linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.08))
+}
+.btn.basic:active {
+	border-top:1px solid rgba(0, 0, 0, 0.15);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.15) inset
+}
+.btn.blue {
+	color:#fff;
+	text-shadow:0 -1px 0 #D51B03;
+	background-color:#D51B03;
+	border:solid 1px #D51B03
+}
+.btn.blue a {
+	color:#fff
+}
+.btn.blue:hover {
+	background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+	box-shadow:1px 1px 0 rgba(0, 0, 0, 0.2)
+}
+.btn.blue:active {
+	border-top:1px solid rgba(0, 0, 0, 0.15);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.15) inset
+}
+.btn.red {
+	color:#fff;
+	background-color:red;
+	background-image:linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05))
+	
+	font-family: "Trebuchet MS",Helvetica,sans-serif; color:#fff ; 
+		-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+
+border:none; font-size:1.3em;  padding-right:25px;
+}
+.btn.red:hover {
+	background-image:linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.15))
+}
+.btn.red:active {
+	border-top:1px solid rgba(0, 0, 0, 0.15);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.15) inset
+}
+.btn.red1 {
+	color:#fff;
+	
+	background-color:#30BE00;
+	background-image:linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05))
+	
+	font-family: "Trebuchet MS",Helvetica,sans-serif; color:#fff ; 
+		-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+   
+	
+border:none; font-size:1.3em;  padding-right:25px;
+}
+.btn.red1:hover {
+	background-image:linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.15))
+}
+.btn.red1:active {
+	border-top:1px solid rgba(0, 0, 0, 0.15);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.15) inset
+}
+.btn.input {
+	color:#fff;
+	font-size:133.3%;
+	text-shadow:0 -1px 0 #0a86c2;
+	background-color:#1ca2ef;
+	background-image:linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));
+	border:solid 1px rgba(0, 0, 0, 0.05);
+	padding:5px 0
+}
+.btn.input:hover {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
+	box-shadow:1px 1px 0 rgba(0, 0, 0, 0.1)
+}
+.btn.input:active {
+	border-top:1px solid rgba(0, 0, 0, 0.25);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.25) inset
+}
+.btn.flat, .btn.flat:hover {
+	box-shadow:none
+}
+.btn.round {
+	border-radius:30px
+}
+.btn.size-s {
+	font-size:91.6%
+}
+a.btn:hover {
+	text-decoration:none
+}
+.btn.add-another {
+	width:100px
+}
+.btn.add-another-option {
+	margin:0 auto
+}
+.btn.read-more {
+	width:120px;
+	margin:0 auto
+}
+.btn.upload {
+	padding:2px
+}
+
+a.back-btn {
+	display:block;
+	font-size:138.4%;
+	color:#8f8f8f
+}
+a.back-btn .common-icons {
+	vertical-align:middle
+}
+a.back-btn .icon_arrow-gray_left {
+	vertical-align:baseline
+}
+#book-it-btn_l {
+	width:100%;
+	border:5px solid #CECDCD;
+	font-size:215.4%
+}
+#submit-btn_l {
+	border:5px solid #CECDCD;
+	font-size:215.4%
+}
+#book-it-btn_l:active, #submit-btn_l:active {
+	box-shadow:0 2px 3px rgba(12, 10, 8, 0.35) inset
+}
+.icon-remove {
+	position:absolute;
+	height:22px;
+	width:22px;
+	text-align:left;
+	overflow:hidden
+}
+.icon-remove span {
+	position:absolute
+}
+.icon-remove span:hover {
+	bottom:0
+}
+.unopen {
+	display:inline-block;
+	height:16px;
+	min-width:16px;
+	color:#fff;
+	font-size:83.3%;
+	border-radius:15px;
+	text-align:center;
+	line-height:1.3;
+	box-shadow:0 0 1px rgba(0, 0, 0, 0.4), 0 2px 0 rgba(0, 0, 0, 0.1);
+	background-color:#F9421F;
+	background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+	position:relative;
+	behavior:url("/PIE.htc")
+}
+
+#book_it {
+    background-color: #FFFFFF;
+    margin: 10px 10px 20px;
+}
+.panel-border {
+    -moz-box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 5px 5px;
+}
+.panel-header-light:first-child, .panel-header-gray:first-child, .panel-header-dark:first-child {
+    border-radius: 4px 4px 0 0;
+    border-top: 0 none;
+}
+.panel-header-light {
+    background-color: rgba(250, 250, 250, 0.9);
+    background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.9) 0%, rgba(250, 250, 250, 0.9) 100%);
+    border-bottom: 1px solid #D0D0D0;
+}
+.book_it_section {
+    border-bottom: 1px dotted #D1D1D1;
+    margin-bottom: 5px;
+    padding: 5px 0;
+    position: relative;
+}
+#price_amount {
+    font-size: 40px;
+}
+#payment_period {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 93px;
+}
+.help-block {
+    color: #999999;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.date_section {
+    float: left;
+    margin-right: 5px;
+    width: 90px;
+}
+.date_section input {
+    width: 75px;
+}
+.num_guests_section {
+    float: left;
+    width: 50px;
+}
+.input-tiny {
+    width: 50px;
+}
+#book_it_status {
+    position: relative;
+}
+.pulsate {
+    animation: 1s linear 0s normal none 1 mozpulsate;
+}
+.panel-padding {
+    padding: 10px 15px;
+}
+#subtotal_area p {
+    margin-bottom: -5px;
+}
+#subtotal {
+    color: #CCCCCC;
+    font-size: 30px;
+}
+#book_it_disabled_message {
+    font-weight: bold;
+    text-align: center;
+}
+.bad {
+    color: #E51E18;
+}
+#show_more_subtotal_info {
+    color: #666666;
+    margin-top: 6px;
+}
+.panel-header-light, .panel-header-gray, .panel-header-dark {
+    border-top: 1px solid #D0D0D0;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2), 0 0 0 #000000;
+    padding: 5px 15px;
+}
+
+@media (max-width: 980px) {
+	
+	.content-inner {
+    width: 920px;
+}
+	
+}
+
+
+
+

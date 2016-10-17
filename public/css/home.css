@@ -1,0 +1,356 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{  border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;font-family: Helvetica,sans-serif;
+	}
+#main
+{
+    margin-left: 0PX;
+    padding-bottom: 0PX;
+}
+.footer_left ul li a
+{
+    color: #a2a2a2;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer_left ul
+{
+    padding-top: 0 !important;
+}
+.CpSloganText
+{
+    color: #fff;
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 215px;
+    position: relative;
+    text-align: center;
+}
+.div_js_overlay_container
+{
+    background-color: rgba(224,224,224,0.6);
+    height: 62px;
+    margin-bottom: 128px;
+    position: relative;
+    text-align: center;
+    width: 497px;
+}
+.div_js_overlay_container input
+{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: url("../img/home/Rectangle_UserName_Password.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    border-color: #e6e6e6;
+    border-image: none;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    color: #868686;
+    font-family: Helvetica,sans-serif;
+    font-size: 13px;
+    margin-left: 8px;
+    padding-left: 6px;
+    height: 23px;
+    width: 146px;
+    background-size: 158px auto;
+    padding-right: 5px;
+}
+.background_layover {
+    background-image: url("../img/grid.png");
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+.FbButtonHome
+{
+    padding-top: 19px;
+    position: relative;
+    text-align: center;
+}
+.FbButtonHome a
+{
+    cursor: pointer;
+}
+.HomeLogin
+{
+    color: #000;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: -108px;
+    margin-top: 20px;
+    position: relative;
+    text-align: right;
+    width: 258px;
+}
+.errorMSG
+{
+    color: #a80000;
+    font-size: 12px;
+    margin-left: 22px;
+    text-align: left;
+    height: 24px;
+    padding-top: 10px;
+}
+.HomeFooter
+{
+    background-color: Black;
+    width: 100%;
+    height: 75px;
+    opacity: .8;
+    position: absolute;
+}
+.loginPopup
+{
+    text-decoration: underline;
+    color: #000;
+    cursor: pointer;
+}
+#mydiv
+{
+    height: 7em;
+    margin: auto;
+}
+.mainDiv
+{
+    vertical-align: bottom;
+}
+.allrights
+{
+    color: #a2a2a2;
+    font-size: 14px;
+    border: none !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .errorMSG
+    {
+        margin-left: 15px !important;
+    }
+    #anc_joinusHome
+    {
+        margin-right: 15px !important;
+    }
+    .div_js_overlay_container input
+    {
+        padding-left: 6px;
+        width: 153px;
+        background-size: 167px 25px;
+        padding-right: 5px;
+    }
+}
+.oroption
+{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#anc_joinusHome
+{
+  
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    width: 59px;
+}
+#anc_joinusHome_temp
+{
+    background-image: url("../img/home/bonton_login.png");
+    background-repeat: no-repeat;
+   background-size: 109px 30px;
+    color: #F2F2F2;
+    cursor: pointer;
+    display: none;
+    float: right;
+    font-size: 13px;
+    font-weight: normal;
+   height: 29px;
+    line-height: 29px;
+    margin-bottom: 12px;
+    margin-right: 20px;
+    opacity: 0.51;
+    width: 109px;
+}
+.loaderiamge
+{
+    border-radius: 10px 10px 10px 10px;
+    height: 94px;
+    left: 47%;
+    opacity: .73;
+    position: fixed;
+    top: 47%;
+    width: 98px;
+}
+.loaderiamge img
+{
+    height: auto;
+    left: 47%;
+    position: fixed;
+    top: 47%;
+    width: 70px;
+}
+.Company_kqr3j2, .FBConnect_weswoy, .FacebookLogin_lgumr2, .MileStone_eecmjw, .PrivateChk_ldo82c, .Rectangle_UserName_Password_JoinUs_bar_hauzs9, .Team_qzwebn, .UPBG_03_l8mrez, .arrowLeft_flvivv, .bonton_connect_facebook_mjmv0h, .cancel_qizdj4, .circle_zuplac, .email_v7eqvj, .facebook_new_ctpnaq, .final_follow_share_full_ermlve, .follower_btnUnfollow_bg_rflmom, .follower_btn_bg_tp9ih7, .input_bg2_gdhn2g, .joinus_03_mzozpb, .lives_icon_mouseover_vu4aao, .post_arrow_bxidlr, .post_btn_rpftfy, .profile_circle_l811kt, .profile_icon_hfhjbp, .reachout_z2sktg, .search_btn_f0ghfx, .select_bg2_vhsdre, .select_right_kbz6sh, .textbox_header_sbxvox, .twitter_k7wq2c, .uploadimage18_txnu15, .user_bkorla, .view_bg_wn0hnq {
+    background: url("../img/home/background_sprite.png") no-repeat scroll 0 0 transparent;
+}
+.FBConnect_weswoy {
+    background-position: 0 -50px;
+    height: 33px;
+    width: 184px;
+}
+.Agree_icon_mouseoverprofile_i5rnqo, .Agree_icon_normalprofile_c7ufba, .CommentBg_bysphe, .F_facebook_hover_afquhs, .F_facebook_normal_l3wb1q, .F_rss_hover_ieupoq, .F_rss_normal_v7tn4c, .F_twitter_hover_x15ac5, .F_twitter_normal_fcvhkv, .HP_facebook_hover_q0bght, .HP_facebook_normal_psrptm, .HP_rss_hover_vlhyaq, .HP_rss_normal_z1ayrk, .HP_twitter_hover_gtbzum, .HP_twitter_normal_djilep, .PunchedBg_wfjsac, .ReachoutBG_a2fm07, .ReachoutBG_ksd3ny, .agree_icon_mouseover_ecb6ku, .agree_icon_normal_sja4fw, .agree_icon_select_s5hzhv, .comment_gal_bg_vvqbrx, .disagree_icon_mouseover_ff7u5h, .disagree_icon_mouseoverprofile_qbnya5, .disagree_icon_normal_f2y0mu, .disagree_icon_normalprofile_pwqvzt, .disagree_icon_select_qwwwp8, .facebook_hover_oawssd, .foller_icon_umsc7k, .heart_gal_bg_rwdk4f, .motivation_g_txmhfg, .motivation_r_ujkaow, .news_icon_mouseover_dql41n, .news_icon_normal_s51bte, .not_chat_eokkbc, .pic_select_wxobuo, .pic_upload_h5umh1, .replied_v2_jfrrar, .reply_icon_mouseover_sf2pln, .reply_icon_normal_rihnte, .rss_hover_xjyiyn, .s_ba_icon_rbft9r, .thanks_icon_mouseover_bsmgko, .thanks_icon_normal_zud92s, .twitter_hover_drpbdh, .user1_gq344c, .user1_ufbd2c, .user_fdimeq, .user_hover_rhbc8j, .world_hover_aibjyn{
+    background: url("../img/home/icons.png") no-repeat scroll 0 0 transparent;
+} 
+.HP_twitter_normal_djilep {
+    background-position: 0 -400px;
+    height: 21px;
+    width: 21px;
+}
+.HP_twitter_hover_gtbzum {  background-position: 0 -377px;
+    height: 21px;
+    width: 21px;}
+	.HP_rss_hover_vlhyaq {  background-position: 0 -331px;
+    height: 21px;
+    width: 21px;}
+.HP_rss_normal_z1ayrk {
+    background-position: 0 -354px;
+    height: 21px;
+    width: 21px;
+}
+
+.wrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 50px 0 #333333;
+    margin: 0px;
+    max-width:none;
+    width: 100%;
+}
+.homepage .content-holder {
+    margin: 0;
+}
+.content-holder {
+    min-height: 300px;
+    position: relative;
+    top: 0px;
+}
+.flexslider {
+    margin:0px;
+}
+.flex-control-nav { display:none;}
+.flexslider .slides img {
+    display: block;
+    height: 800px;
+    width: 100%;
+}
+.site-header{ display:none;}
+.site-footer {
+    background: none repeat scroll 0 0 #000;
+    border-top: 0 none;
+    margin: 0;padding:0px 30px 100px;
+
+}
+.HomeFooter {
+    background-color: #281645;
+    height: 75px;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+}
+.footer_left ul {
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+.footer_left ul {
+    padding-top: 0 !important;
+}
+.footer_left ul li {
+    display: inline;
+}
+.footer_left ul li a {
+    font-size: 13px;
+}
+.footer_left ul li a {
+    color: #A2A2A2;
+    font-size: 13px;
+    text-decoration: none;
+}
+.site-footer .footer-content {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.backstretch1 {
+    background-image: url("../img/grid.png");
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+#header_top{ position:absolute; top:0px; height:100px; width:100%; background:#000; z-index:1; opacity:0; }
+#footer_bottom{ position:absolute; bottom:0px; height:100px; width:100%; background:#000; z-index:1; opacity:1; }
+
+.container1 h1, .container1 h2 {
+    color: #FFFFFF;
+    line-height: 1.2;
+	 font-size: 46px;
+    margin-bottom: 8px;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.6), 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+
+
+    
+    .loginbtn {
+        
+        -moz-box-shadow:inset 0px 1px 0px 0px #6e4bab;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #6e4bab;
+        box-shadow:inset 0px 1px 0px 0px #6e4bab;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #42227a), color-stop(1, #5d32a8));
+        background:-moz-linear-gradient(top, #42227a 5%, #5d32a8 100%);
+        background:-webkit-linear-gradient(top, #42227a 5%, #5d32a8 100%);
+        background:-o-linear-gradient(top, #42227a 5%, #5d32a8 100%);
+        background:-ms-linear-gradient(top, #42227a 5%, #5d32a8 100%);
+        background:linear-gradient(to bottom, #42227a 5%, #5d32a8 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#42227a', endColorstr='#5d32a8',GradientType=0);
+        
+        background-color:#42227a;
+        
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        
+        border:1px solid #543687;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-size:13px;
+        font-weight:normal;
+        padding:6px 24px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #6338ad;
+        
+    }
+    .loginbtn:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5d32a8), color-stop(1, #42227a));
+        background:-moz-linear-gradient(top, #5d32a8 5%, #42227a 100%);
+        background:-webkit-linear-gradient(top, #5d32a8 5%, #42227a 100%);
+        background:-o-linear-gradient(top, #5d32a8 5%, #42227a 100%);
+        background:-ms-linear-gradient(top, #5d32a8 5%, #42227a 100%);
+        background:linear-gradient(to bottom, #5d32a8 5%, #42227a 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5d32a8', endColorstr='#42227a',GradientType=0);
+        
+        background-color:#5d32a8;
+    }
+    .loginbtn:active {
+        position:relative;
+        top:1px;
+    }
