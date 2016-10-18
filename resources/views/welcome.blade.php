@@ -190,7 +190,7 @@
                 <ul style="margin-top: 15px;" class="socialFooter">
                     <li style=" padding-left: 0; position: relative; border-right: none;">
                         <a href="/ourstory" class="anc_story_hp" id="" style="cursor: pointer;">
-                        <span style="font-size: 14px; font-family: marvel;">Our Story &nbsp;</span></a>
+                        <span style="font-size: 14px; font-family: marvel;">Our Story1 &nbsp;</span></a>
                              </li>
                     <li style="border: none; position: relative;">
 
